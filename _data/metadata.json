@@ -1,10 +1,10 @@
 {
-  "title": "Your Blog Name",
+  "title": "One Hundred Cocktails in One Hundred Days",
   "url": "https://example.com/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "One man making 100 different cocktails and documenting the experience.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "One man making 100 different cocktails and documenting the experience.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
@@ -14,8 +14,8 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
+    "name": "Joel Wolfe",
+    "email": "cocktails@soldbyjoelwolfe.com",
     "url": "https://example.com/about-me/"
   }
 }

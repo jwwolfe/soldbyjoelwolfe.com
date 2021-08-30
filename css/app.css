@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+body {
+  margin: 0;
+}
+
+section header {
+  z-index: 1;
+}
+section header.open {
+  width: 17vw;
+  height: 33vh;
+  border-radius: 0 0 5px 0;
+  box-shadow: 1px 1px rgba(155, 155, 155, 0.7);
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-left: 2em;
+}
+section header.open a {
+  color: #343434;
+  text-decoration: none;
+}
+section header.open a:active {
+  color: #5a5a5a;
+}
+section header.open a:hover {
+  color: #898989;
+  text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.5);
+}
+section header.open ul.nav {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+section header.open ul.nav li {
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+section header.open h1, section header.open h2 {
+  font-family: "Special Elite", cursive;
+}
+section header.open h1.home, section header.open h2.home {
+  margin-top: 4em;
+}
+section header.open button {
+  width: 48px;
+  height: 48px;
+  top: 32px;
+  left: 32px;
+  position: absolute;
+}
+section header.open button img {
+  width: 2.5em;
+  display: block;
+  margin-left: 2px;
+}
+section header.closed {
+  position: fixed;
+  left: 2em;
+  top: 2em;
+  width: 3em;
+  height: 3em;
+  border-radius: 5em;
+  background-color: #fefefe;
+  box-shadow: 1px 1px rgba(155, 155, 155, 0.7);
+}
+section header.closed * {
+  display: none;
+}
+section header.closed button, section header.closed img {
+  display: block;
+}
+section header button {
+  display: block;
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 5em;
+  background-color: #ededed;
+  box-shadow: 1px 1px rgba(155, 155, 155, 0.7);
+}
+section header button img {
+  width: 2.5em;
+  display: block;
+  margin-left: 2px;
+}
+section main {
+  width: 100vw;
+}
+section section.hero-image {
+  width: 100%;
+}
+section section.hero-image img {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+section section.hero-image .post-title {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+}
+section section.hero-image .post-title h1 {
+  text-align: center;
+  color: #efefef;
+  text-shadow: 1px 1px 3px #dedede;
+  font-size: 108px;
+}
+section section.content {
+  position: relative;
+  min-height: 100vh;
+  width: 60vw;
+  margin: 0 auto;
+}
+section section.content ul {
+  position: relative;
+  border-radius: 1em;
+  box-shadow: 1px 1px rgba(200, 200, 200, 0.75);
+  margin: 1em auto;
+  padding: 1em;
+  background-color: rgba(200, 200, 200, 0.5);
+  width: 60%;
+}
+section section.content ul li {
+  list-style: none;
+  margin-left: 1em;
+}
+section section.content ul li:first-child {
+  font-size: 2em;
+  font-weight: bold;
+}
+section section.content ul li:last-child {
+  margin-top: 1em;
+  margin-left: none;
+}
+
+/*# sourceMappingURL=app.css.map */

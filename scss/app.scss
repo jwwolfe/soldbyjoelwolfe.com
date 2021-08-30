@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+$parallax-perspective: 8px;
+
+@function parallax-scale-factor($z-distance) {
+  @return calc((8 -  $z-distance) / 8);
+}
+
+body {
+  margin: 0;
+}
+section {
+  header {
+    z-index: 1;
+    &.open {
+      width: 17vw;
+      height: 33vh;
+      border-radius: 0 0 5px 0;
+      box-shadow: 1px 1px rgb(155 155 155 / 70%);
+      background-color: white;
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding-left: 2em;
+      a {
+        color: #343434;
+        text-decoration: none;
+        &:active {
+          color: #5a5a5a;
+        }
+        &:hover {
+          color: #898989;
+          text-shadow: 1px 1px 1px rgba(50, 50, 50, .5);
+        }
+      }
+      ul.nav {
+        margin: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+        li {
+          list-style: none;
+          margin-bottom: .5em;
+        }
+      }
+      h1, h2 {
+        font-family: "Special Elite", cursive;
+        &.home {
+          margin-top: 4em;
+        }
+      }
+      button {
+        width: 48px;
+        height: 48px;
+        top: 32px;
+        left: 32px;
+        position: absolute;
+        img {
+          width: 2.5em;
+          display: block;
+          margin-left: 2px;
+        }
+      }
+    }
+    &.closed {
+      position: fixed;
+      left: 2em;
+      top: 2em;
+      width: 3em;
+      height: 3em;
+      border-radius: 5em;
+      background-color: #fefefe;
+      box-shadow: 1px 1px rgba(155, 155, 155, .7);
+      * {
+        display: none;
+      }
+      button, img {
+        display: block;
+      }
+    }
+    button {
+      display: block;
+      border: none;
+      width: 100%;
+      height: 100%;
+      border-radius: 5em;
+      background-color: #ededed;
+      box-shadow: 1px 1px rgba(155, 155, 155, .7);
+      img {
+        width: 2.5em;
+        display: block;
+        margin-left: 2px;
+      }
+    }
+  }
+
+  main {
+    width: 100vw;
+
+  }
+  section.hero-image {
+    width: 100%;
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 100vh;
+    }
+    .post-title {
+      position: absolute;
+      top: 40%;
+      left: 0;
+      width: 100%;
+      h1 {
+        text-align: center;
+        color: #efefef;
+        text-shadow: 1px 1px 3px #dedede;
+        font-size: 108px;
+      }
+    }
+  }
+
+  section.content {
+    position: relative;
+    min-height: 100vh;
+    width: 60vw;
+    margin: 0 auto;
+    ul {
+      position: relative;
+      border-radius: 1em;
+      box-shadow: 1px 1px rgba(200, 200, 200, .75);
+      margin: 1em auto;
+      padding: 1em;
+      background-color: rgba(200, 200, 200, .5);
+      width: 60%;
+      li {
+        list-style: none;
+        margin-left: 1em;
+        &:first-child {
+          font-size: 2em;
+          font-weight: bold;
+        }
+        &:last-child {
+          margin-top: 1em;
+          margin-left: none;
+        }
+      }
+    }
+  }
+}
+
+
