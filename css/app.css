@@ -100,8 +100,7 @@ section section.hero-image {
 }
 section section.hero-image img {
   width: 100%;
-  object-fit: cover;
-  height: 100vh;
+  object-fit: contain;
 }
 section section.hero-image .post-title {
   position: absolute;

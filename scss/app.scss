@@ -106,8 +106,7 @@ section {
     border-radius: 3px;
     img {
       width: 100%;
-      object-fit: cover;
-      height: 100vh;
+      object-fit: contain;
     }
     .post-title {
       position: absolute;
