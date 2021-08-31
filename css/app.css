@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&family=Fira+Sans:ital,wght@0,400;0,500;1,400&display=swap");
 body {
   margin: 0;
 }
 
+section {
+  font-family: "Fira Sans", sans-serif;
+}
 section header {
   z-index: 1;
 }
@@ -39,7 +43,7 @@ section header.open ul.nav li {
   margin-bottom: 0.5em;
 }
 section header.open h1, section header.open h2 {
-  font-family: "Special Elite", cursive;
+  font-family: "Cantarell", sans-serif;
 }
 section header.open h1.home, section header.open h2.home {
   margin-top: 4em;
@@ -87,10 +91,12 @@ section header button img {
   margin-left: 2px;
 }
 section main {
-  width: 100vw;
+  width: 75vw;
+  margin: 0 auto;
 }
 section section.hero-image {
   width: 100%;
+  border-radius: 3px;
 }
 section section.hero-image img {
   width: 100%;
@@ -108,12 +114,16 @@ section section.hero-image .post-title h1 {
   color: #efefef;
   text-shadow: 1px 1px 3px #dedede;
   font-size: 108px;
+  font-family: "Special Elite", cursive;
 }
 section section.content {
   position: relative;
   min-height: 100vh;
   width: 60vw;
   margin: 0 auto;
+}
+section section.content h1, section section.content h2, section section.content h3, section section.content h4 {
+  font-family: "Cantarell", sans-serif;
 }
 section section.content ul {
   position: relative;
@@ -126,15 +136,72 @@ section section.content ul {
 }
 section section.content ul li {
   list-style: none;
-  margin-left: 1em;
+  margin-left: 2rem;
 }
 section section.content ul li:first-child {
-  font-size: 2em;
+  font-size: 1.5rem;
   font-weight: bold;
+  margin-left: 1rem;
+  font-family: "Cantarell", sans-serif;
+  margin-bottom: 0.5rem;
 }
 section section.content ul li:last-child {
-  margin-top: 1em;
-  margin-left: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+section section.content div.tag {
+  background-color: #efefef;
+  width: fit-content;
+  text-align: center;
+  padding: 0.75rem;
+  border-radius: 4rem;
+  font-family: "Cantarell";
+  display: inline-block;
+  margin-right: 0.5rem;
+  box-shadow: 1px 1px 1px #343434;
+}
+section section.content div.tag a {
+  color: #343434;
+  text-decoration: none;
+}
+section section.content .post-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+section section.content .post-container .postlist-item {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
+}
+section section.content .post-container .postlist-item a {
+  height: inherit;
+  width: inherit;
+}
+section section.content .post-container .postlist-item a h4 {
+  display: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+section section.content .post-container .postlist-item a img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+section section.content .post-container .postlist-item a:hover h4 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  text-align: center;
+  color: #efefef;
+  background-color: rgba(50, 50, 50, 0.5);
 }
 
 /*# sourceMappingURL=app.css.map */
