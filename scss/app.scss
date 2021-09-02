@@ -174,13 +174,16 @@ section {
     .post-container {
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: flex-start;
+      flex-wrap: wrap;
       .postlist-item {
         height: 200px;
         width: 200px;
         position: relative;
         border-radius: 5px;
         overflow: hidden;
+        margin-right: .5rem;
+        margin-bottom: .5rem;
         box-shadow: 1px 1px 1px rgba(50, 50, 50, .3);
         a {
           height: inherit;
@@ -215,4 +218,47 @@ section {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  section {
+    header {
+      &.open {
+        width: 50vw;
+        height: unset;
+        padding-bottom: 2rem;
+      }
+    }
 
+    section.hero-image {
+      .post-title {
+
+        top: 20%;
+        h1 {
+          font-size: 72px;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  section {
+    header {
+      &.open {
+        width: 50vw;
+        height: unset;
+        padding-bottom: 2rem;
+      }
+    }
+
+    section.hero-image {
+      .post-title {
+
+        top: 12%;
+        h1 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}
