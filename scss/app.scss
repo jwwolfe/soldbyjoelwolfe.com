@@ -12,6 +12,16 @@ body {
 }
 section {
   font-family: "Fira Sans", sans-serif;
+  a {
+    color: #343434;
+    text-decoration: none;
+    &:active {
+      color: #5a5a5a;
+    }
+    &:hover {
+      color: #898989;
+    }
+  }
   header {
     z-index: 1;
     &.open {
@@ -25,13 +35,7 @@ section {
       top: 0;
       padding-left: 2em;
       a {
-        color: #343434;
-        text-decoration: none;
-        &:active {
-          color: #5a5a5a;
-        }
         &:hover {
-          color: #898989;
           text-shadow: 1px 1px 1px rgba(50, 50, 50, .5);
         }
       }
@@ -213,6 +217,16 @@ section {
             }
           }
         }
+      }
+    }
+    .bottom-nav {
+      width: 100%;
+      margin-top: 2em auto;
+      .next {
+        float: right;
+      }
+      .previous {
+        float: left;
       }
     }
   }

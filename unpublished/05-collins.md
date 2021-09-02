@@ -2,13 +2,9 @@
 title: collins
 description: The classic two-ingredient cocktail. Spirit + mixer
 date: 2021-09-05
-tags:
-  - gin
-  - simple
-  - lemon
-  - soda
 layout: layouts/post.njk
 image: collins.jpg
+eleventyExcludeFromCollections: true
 ---
  - 2oz whiskey
  - 4oz soda water
@@ -16,7 +12,7 @@ image: collins.jpg
 
  Directions: Fill a highball glass with ice cubes, then add the whiskey. Top with soda water, stir gently, and garnish with the lemon twist.
 
-## Highball
+## Collins
 
 The first drink is one of the simplest cocktails possible - the highball. For this first entry, I chose to make the classic whiskey highball, using a Japanese whiskey (Kaiyo 7 year), Topo Chico, ice, and a lemon twist, built in a highball glass. The whiskey highball is a simple but elegant drink that has far more nuance than the basic ingredients and elementary construction would suggest. The choice of whiskey and soda water are very important - I would recommend against using a cheap whiskey for this drink, and the choice of soda water is also very important, as the mineral content could conflict with the whiskey.
 

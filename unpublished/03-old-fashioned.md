@@ -2,13 +2,9 @@
 title: old fashioned
 description: The classic two-ingredient cocktail. Spirit + mixer
 date: 2021-09-03
-tags:
-  - whiskey
-  - bitters
-  - sugar
-  - water
 layout: layouts/post.njk
 image: old-fashioned.jpg
+eleventyExcludeFromCollections: true
 ---
  - 2oz whiskey
  - 4oz soda water

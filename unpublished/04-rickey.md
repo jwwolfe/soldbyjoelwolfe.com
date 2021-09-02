@@ -2,12 +2,9 @@
 title: rickey
 description: The classic two-ingredient cocktail. Spirit + mixer
 date: 2021-09-04
-tags:
-  - whiskey
-  - soda
-  - lime
 layout: layouts/post.njk
 image: rickey.jpg
+eleventyExcludeFromCollections: true
 ---
  - 2oz whiskey
  - 4oz soda water

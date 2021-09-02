@@ -7,6 +7,16 @@ body {
 section {
   font-family: "Fira Sans", sans-serif;
 }
+section a {
+  color: #343434;
+  text-decoration: none;
+}
+section a:active {
+  color: #5a5a5a;
+}
+section a:hover {
+  color: #898989;
+}
 section header {
   z-index: 1;
 }
@@ -21,15 +31,7 @@ section header.open {
   top: 0;
   padding-left: 2em;
 }
-section header.open a {
-  color: #343434;
-  text-decoration: none;
-}
-section header.open a:active {
-  color: #5a5a5a;
-}
 section header.open a:hover {
-  color: #898989;
   text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.5);
 }
 section header.open ul.nav {
@@ -204,6 +206,16 @@ section section.content .post-container .postlist-item a:hover h4 {
   text-align: center;
   color: #efefef;
   background-color: rgba(50, 50, 50, 0.5);
+}
+section section.content .bottom-nav {
+  width: 100%;
+  margin-top: 2em auto;
+}
+section section.content .bottom-nav .next {
+  float: right;
+}
+section section.content .bottom-nav .previous {
+  float: left;
 }
 
 @media screen and (max-width: 1024px) {
