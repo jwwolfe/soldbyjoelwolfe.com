@@ -9,15 +9,13 @@ tags:
   - bitters
   - ice
 image: old-fashioned.jpg
-eleventyExcludeFromCollections: true
 ---
  - 2oz whiskey
  - .25oz simple syrup
  - 1 dash Angostrura bitters
  - orange peel
- - cocktail cherry
-
- Directions: In a mixing glass, add whiskey, simple syrup, bitters, and ice. Stir well. Strain into a rocks glass over one large ice cube. Express the orange peel over the drink, and garnish with orange peel and brandied cherry.
+ - brandied cherry
+ - Directions: In a mixing glass, add whiskey, simple syrup, bitters, and ice. Stir well. Strain into a rocks glass over one large ice cube. Express the orange peel over the drink, and garnish with orange peel and brandied cherry.
 
 ## Old Fashioned
 
