@@ -7,7 +7,6 @@ tags:
   - whiskey
   - simple syrup
   - bitters
-  - ice
 image: old-fashioned.jpg
 ---
  - 2oz whiskey
