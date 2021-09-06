@@ -1,6 +1,6 @@
 ---
 title: martini
-description:
+description: The gin drink
 date: 2021-09-02
 tags:
   - gin
@@ -8,6 +8,7 @@ tags:
 layout: layouts/post.njk
 image: martini.jpg
 ---
+ - Recipe
  - 2oz gin
  - .25oz dry vermouth
  - orange bitters

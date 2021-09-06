@@ -1,6 +1,6 @@
 ---
 title: old fashioned
-description: The classic two-ingredient cocktail. Spirit + mixer
+description: Classic, simple stirred whiskey drink
 date: 2021-09-03
 layout: layouts/post.njk
 tags:
@@ -9,6 +9,7 @@ tags:
   - bitters
 image: old-fashioned.jpg
 ---
+ - Recipe
  - 2oz whiskey
  - .25oz simple syrup
  - 1 dash Angostrura bitters

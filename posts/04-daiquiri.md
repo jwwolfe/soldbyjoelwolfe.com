@@ -1,7 +1,7 @@
 ---
 title: daiquiri
 description: Not the frozen kind
-date: 2021-09-03
+date: 2021-09-04
 layout: layouts/post.njk
 tags:
   - rum
@@ -9,6 +9,7 @@ tags:
   - lime
 image: daiquiri.jpg
 ---
+ - Recipe
  - 2oz rum
  - 1oz simple syrup
  - 1oz lime juice
