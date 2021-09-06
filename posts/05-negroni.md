@@ -6,7 +6,7 @@ layout: layouts/post.njk
 tags:
   - gin
   - campari
-  - lime
+  - sweet vermouth
 image: negroni.jpg
 ---
  - Directions
