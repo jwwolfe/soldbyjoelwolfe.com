@@ -1,6 +1,6 @@
 ---
 title: paloma
-description: The perfect apéritif
+description: Mexico's most popular grapefruit and tequila cocktail
 date: 2021-09-05
 layout: layouts/post.njk
 tags:
