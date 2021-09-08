@@ -1,7 +1,7 @@
 ---
 title: paloma
 description: Mexico's most popular grapefruit and tequila cocktail
-date: 2021-09-05
+date: 2021-09-06
 layout: layouts/post.njk
 tags:
   - tequila
