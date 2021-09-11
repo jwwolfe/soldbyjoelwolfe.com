@@ -1,5 +1,5 @@
 ---
-title: experiment #01
+title: experiment 01
 description:
 date: 2021-09-10
 layout: layouts/post.njk
