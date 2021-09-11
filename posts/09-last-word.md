@@ -1,7 +1,7 @@
 ---
 title: last word
 description: Gin, lime, green chartreuse, and maraschino liqueur in equal parts
-date: 2021-09-08
+date: 2021-09-09
 layout: layouts/post.njk
 tags:
   - gin
