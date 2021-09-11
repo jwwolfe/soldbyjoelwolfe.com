@@ -5,7 +5,7 @@ date: 2021-09-10
 layout: layouts/post.njk
 tags:
   - experiments
-image: last-word.jpg
+image: experiment-01.jpg
 ---
 ## Experiment #01
 
