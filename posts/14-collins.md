@@ -6,7 +6,7 @@ tags:
   - gin
   - lemon
   - simple syrup
-  - soda water
+  - soda
 layout: layouts/post.njk
 image: collins.jpg
 ---
