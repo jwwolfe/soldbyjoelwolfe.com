@@ -10,7 +10,7 @@ tags:
   - maraschino liqueur
 image: last-word.jpg
 ---
- - Directions
+ - Recipe
  - .75oz gin
  - .75oz green chartreuse
  - .75oz lime juice

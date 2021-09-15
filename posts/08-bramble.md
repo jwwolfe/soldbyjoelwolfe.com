@@ -11,7 +11,7 @@ tags:
   - creme de mure
 image: bramble.jpg
 ---
- - Directions
+ - Recipe
  - 2oz gin
  - 1oz lemon juice
  - .5oz simple syrup
@@ -26,7 +26,7 @@ The Bramble is a newer cocktail, so its origins are less murky than some of the 
 
 A London Dry gin is perfect for this drink. As always, use freshly squeezed lemon juice, and fresh blackberries. Creme de mure is the fancy name for blackberry liqueur. If you don't have creme de mure, you can simulate the effect by using .25oz of each gin and simple syrup and add some more blackberries muddled into it.
 
-This drink looks really cool and tastes fantastic. It's better during blackberry season,
+This drink looks really cool and tastes fantastic. It's refreshing and juicy, and the blackberry pieces mixed into the light yellow of the gin and lemon base is simply lovely.
 
 These posts have been a little bit lighter as I've been doing some simple (and delicious) drinks, so I thought I would take the time today, at the beginning of week two, to make a more involved drink that introduces some new techniques. This drink has some extra steps that I haven't touched on yet - short shaking, muddling, and crushed ice.
 

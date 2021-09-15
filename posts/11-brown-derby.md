@@ -9,7 +9,7 @@ tags:
   - honey syrup
 image: brown-derby.jpg
 ---
- - Directions
+ - Recipe
  - 2oz bourbon
  - 1oz grapefruit juice
  - .75oz honey syrup

@@ -10,7 +10,7 @@ tags:
   - orange bitters
 image: bijou.jpg
 ---
- - Directions
+ - Recipe
  - 1oz gin
  - 1oz green chartreuse
  - 1oz sweet vermouth

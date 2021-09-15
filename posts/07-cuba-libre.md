@@ -9,7 +9,7 @@ tags:
   - cola
 image: cuba-libre.jpg
 ---
- - Directions
+ - Recipe
  - 2oz rum
  - .5oz lime juice
  - cola

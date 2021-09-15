@@ -10,7 +10,7 @@ tags:
   - egg white
 image: whiskey-sour.jpg
 ---
- - Directions
+ - Recipe
  - 2oz whiskey
  - 1oz lemon juice
  - .75oz simple syrup

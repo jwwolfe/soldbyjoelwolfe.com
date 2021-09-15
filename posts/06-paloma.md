@@ -10,7 +10,7 @@ tags:
   - salt
 image: paloma.jpg
 ---
- - Directions
+ - Recipe
  - 2oz tequila
  - .5oz lime juice (optional)
  - grapefruit soda
