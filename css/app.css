@@ -207,6 +207,10 @@ section section.content ul li:last-child {
   margin-top: 1rem;
   margin-left: 1rem;
 }
+section section.content img {
+  margin: 0 auto;
+  display: block;
+}
 section section.content div.tag {
   background-color: #efefef;
   width: fit-content;
