@@ -26,7 +26,7 @@ The Whiskey Smash is closely related to the Mint Julep, which I have not covered
 
 I used Larceny Bourbon in this Whiskey Smash. You could make it with many whiskeys. I like a good bourbon, rye, or Irish.
 
-In this recipe, I call for the use of plain white granulated sugar instead of the usual simple syrup. This isn't a requirement, you could use simple syrup here, but the muddling process and the amount of crushed ice used here are enough dilution, so I go for the direct sweetener.
+In this recipe, I call for the use of plain white granulated sugar instead of the usual simple syrup. This isn't a requirement, you could use simple syrup here, but the muddling process and the amount of crushed ice used here are enough dilution, so I go for the direct sweetener. The amount is also just my personal prefernce, feel free to adjust according to taste.
 
 ### History
 
