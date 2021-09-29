@@ -229,7 +229,15 @@ section {
       font-family: "Cantarell";
       display: inline-block;
       margin-right: .5rem;
+      margin-bottom: .5rem;
       box-shadow: 1px 1px 1px #343434;
+      transition-property: margin;
+      transition-duration: 3s;
+      &:hover {
+        margin: 1em;
+        background-color: #ababab
+
+      }
       a {
         color: #343434;
         text-decoration: none;
