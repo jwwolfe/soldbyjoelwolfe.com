@@ -1,7 +1,7 @@
 ---
 title: white russian
 description: Hey, careful man! There's a beverage here!
-date: 2021-09-21
+date: 2021-09-29
 layout: layouts/post.njk
 tags:
  - vodka
