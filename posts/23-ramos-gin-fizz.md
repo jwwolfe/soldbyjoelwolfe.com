@@ -1,6 +1,6 @@
 ---
 title: ramos gin fizz
-description:
+description: This drink slaps
 date: 2021-09-29
 layout: layouts/post.njk
 tags:
